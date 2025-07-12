@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AltKYC – Seller Portal</title>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: white;
+      font-family: sans-serif;
+      padding: 2rem;
+    }
+
+    h1 {
+      color: limegreen;
+    }
+
+    .form-box {
+      background: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    label {
+      display: block;
+      margin-top: 1rem;
+      color: #ccc;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 0.5rem;
+      background: #111;
+      border: 1px solid #444;
+      border-radius: 5px;
+      color: white;
+    }
+
+    .info {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    .contact {
+      margin-top: 1rem;
+    }
+
+    .contact a {
+      color: limegreen;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>💼 Become a Verified KYC Seller</h1>
+  <p>Provide full and working KYC/KYB verifications. Respect buyer privacy. No fake submissions.</p>
+
+  <div class="form-box">
+    <h2>✍️ Copy and Send This Template</h2>
+
+    <label>Platform (e.g. Bybit, OKX):</label>
+    <input value="Bybit" readonly>
+
+    <label>Country:</label>
+    <input value="Nigeria" readonly>
+
+    <label>Verification Method:</label>
+    <input value="Sumsub / Onfido / Manual" readonly>
+
+    <label>Price (USDT):</label>
+    <input value="$25" readonly>
+
+    <label>Delivery Time:</label>
+    <input value="1–24 hours" readonly>
+
+    <label>Proof Sample:</label>
+    <input value="(Optional Dropbox/IPFS link)" readonly>
+
+    <label>Preferred Contact:</label>
+    <input value="@YourTelegram / ProtonMail / Session ID" readonly>
+
+    <p class="info">Copy the above and send it to us directly using any of the following:</p>
+
+    <div class="contact">
+      <p>🔒 Telegram: <a href="https://t.me/YourTelegram" target="_blank">@YourTelegram</a></p>
+      <p>📧 Email: <a href="mailto:support@protonmail.com">support@protonmail.com</a></p>
+    </div>
+  </div>
+
+</body>
+</html>
+<h2>📬 Or Submit Form Anonymously</h2>
+<form action="https://formsubmit.co/altkyc@proton.me" method="POST">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://ipfs.io/ipfs/CID/thankyou.html">
+
+  <label>Your Platform & Country</label>
+  <input type="text" name="platform" required>
+
+  <label>Price in USDT</label>
+  <input type="text" name="price" required>
+
+  <label>Contact (Telegram / Email)</label>
+  <input type="text" name="contact" required>
+
+  <label>Notes or Proof Link (optional)</label>
+  <textarea name="notes"></textarea>
+
+  <br><br>
+  <button type="submit" style="padding:10px 20px;background:limegreen;border:none;border-radius:5px;font-weight:bold;">Submit</button>
+</form>
+
